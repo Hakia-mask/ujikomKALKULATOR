@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculatoor </title>
+    <style>
+    .calc{
+        margin: auto;
+        background-color:  gray;
+        border: 2px solid whitesmoke;
+        width: 25%;
+        height: 500px;
+        border-radius: 90px;
+        box-shadow: 10px 10px 40px;
+
+    }
+    .maininput{
+        background-color: black;
+        border: 1px solid grey;
+    }
+
+    </style>
 </head>
 <body>
     <div class="calc">
         <form action="" method="post">
-            <input type="text" class="maininput"><br>
+            <br><br>
+            <input type="text" class="maininput"><br><br>
             <input type="submit" class="numbtn" name="num"value="7">
             <input type="submit" class="numbtn" name="num"value="8">
             <input type="submit" class="numbtn" name="num"value="9">
@@ -24,7 +42,8 @@
 
             <input type="submit" class="numbtn" name="num"value="c">
             <input type="submit" class="numbtn" name="num"value="0">
-            <input type="submit" class="numbtn" name="num"value="=">
+            <input type="submit" class="numbtn" name="num"value=".">
+            <input type="submit" class="numbtn" name="equal"value="=">
         </form>
     </div>
 </body>
